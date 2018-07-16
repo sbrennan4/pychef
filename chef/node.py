@@ -196,7 +196,9 @@ class Node(ChefObject):
         'override': NodeAttributes,
         'automatic': NodeAttributes,
         'run_list': list,
-        'chef_environment': str
+        'chef_environment': str,
+        'policy_name': str,
+        'policy_group': str
     }
 
     def has_key(self, key):
